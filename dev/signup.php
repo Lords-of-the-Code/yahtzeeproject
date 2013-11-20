@@ -1,7 +1,7 @@
 <?php include("inc/header.php"); ?>
 
         <div id="signingup">
-        <form method="POST" action="homepage.php" >
+        <form method="POST" action="verify.php" >
             <fieldset>
                 <legend><h3>Yahtzee Sign-Up</h3></legend>
             <label> First Name  </label><input type="text" name="FirstName"/>  <br/>
