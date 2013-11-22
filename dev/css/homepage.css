@@ -3,6 +3,16 @@ body {
     /*border: black 5px solid;*/
     margin: 0 5%;
     width: 70%;
+    font: small "Trebuchet MS", Verdana, Sans-serif;	
+    
+}
+div {
+    display: block;
+}
+form {
+    margin-bottom: 1em;
+    display: block;
+    margin-top: 0em;
 }
 
 /*Header and footer css*/
@@ -80,7 +90,7 @@ text-align: center;
     border: black 1px solid;
     height: 100px;
     margin-right: 250px;
-    width: 40%;
+    width: 45%;
 }
 #login_signup {
     /*border: 5px solid black;*/
@@ -105,7 +115,7 @@ width: 6em;
 float: left;
 /*clear: right;*/
 text-align: right;
-margin-right: 0.5em;
+margin-right: 1em;
 /*margin-left: 500px;*/
 /*display: block;*/
 /*padding-right: 1em;*/
@@ -113,7 +123,7 @@ margin-right: 0.5em;
 }
 
 #signingup input {
-    width: 10.5em;
+    width: 11em;
 }
 
 #signingup {
@@ -121,22 +131,122 @@ margin-right: 0.5em;
     text-align: justify;
     /*border: 1px solid black;*/
     width: 400px;
+    color: white;
+    border-bottom: 2px solid black;
+    text-align: justify;
+    padding: 5px;
+    height: auto;
+   
 }
 
 #signupsubmit input {
-    margin-left: 8em;
+    margin-left: 6.7em;
 }
 
 #signingup fieldset
 {
 border: 1px solid #781351;
+  width: 410px;
+
 }
 
 #signingup legend
 {
-color: white;
-background: #bbb;
+color: black;
+background: white;
 border: 1px solid #781351;
 padding: 0 5px;
 height: auto;
+}
+
+#Userpage{
+  
+}
+
+h1{
+    
+    color: white;
+    border-bottom: 2px solid black;
+    margin: 4% 5%;
+    width: 300px;
+    text-align: justify;
+    padding: 0 5px;
+    height: auto;
+    
+}
+a{
+    color: white;
+    text-align: justify;
+    padding: 0 5px;
+    height: auto;
+
+}
+
+
+#javadice {
+	font-size: 14px;
+	background-color: white;
+	border-width: 5px;
+	border-style: dotted;
+	border-color: #c3040c;
+	position: fixed;
+	top: 260px;
+	left: 75px;
+	width: 185px;
+       	
+}
+
+#javadice > th {
+	font-weight: bold;
+	color: #c3040c;
+        
+}
+table {
+    font-size: medium;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    color: -webkit-text;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    font-weight: bold;
+
+}
+
+#rolltotal {
+    
+    
+}
+#main{
+	background-color: white;
+	font-size: 200%;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	padding-top: 100px;
+}
+dice {
+	text-align: right;
 }
