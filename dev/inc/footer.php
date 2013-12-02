@@ -19,3 +19,4 @@
             <p>&copy; Lords of the Code</p>
             </form>
 </footer>
+</div>

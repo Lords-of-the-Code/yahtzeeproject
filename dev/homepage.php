@@ -1,4 +1,5 @@
 <?php include("inc/header.php"); ?>
+
         <div id="login_signup">
             <div id="login">
                 <form name="login" action="verify.php" method="post">
@@ -18,5 +19,6 @@
             <img src="images/yahtzee_homepagepic.jpg" alt="yahtzee"/>
         </div>
         <?php include("inc/footer.php"); ?>
+
     </body> 
 </html>

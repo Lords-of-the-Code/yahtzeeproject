@@ -1,5 +1,5 @@
 body {
-    background-color: #c00;
+    background-color: #bbb;
     /*border: black 5px solid;*/
     margin: 0 5%;
     width: 70%;
@@ -13,6 +13,14 @@ form {
     margin-bottom: 1em;
     display: block;
     margin-top: 0em;
+/*    margin: 0 5%;*/
+}
+
+#contentcontainer {
+/*    width: 70%;*/
+    background-color: #c00;
+    border: black 5px solid;
+    margin: 0 10%;
 }
 
 /*Header and footer css*/
@@ -82,6 +90,7 @@ text-align: center;
     width: 40%;
     /*padding-right: 20px;*/
     color: white;
+    background-color: #bbb;
 }
 
 #signup {
@@ -91,6 +100,9 @@ text-align: center;
     height: 100px;
     margin-right: 250px;
     width: 45%;
+    width: 40%;
+    background-color: #bbb;
+
 }
 #login_signup {
     /*border: 5px solid black;*/
@@ -102,8 +114,8 @@ text-align: center;
 #login_signup img {
     height: 45%;
     text-align: justify;
-    float: right;
-    margin: 5% 35%;
+    /*float: right;*/
+    margin: 0 40%;
 }
 
 /*end of homepage specific css
