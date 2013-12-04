@@ -1,10 +1,16 @@
 body {
-    background-color: #c00;
+    background-color: #bbb;
     /*border: black 5px solid;*/
     margin: 0 5%;
     width: 70%;
-    font: small "Trebuchet MS", Verdana, Sans-serif;	
-    
+    font: small "Trebuchet MS", Verdana, Sans-serif;    
+}
+
+#contentcontainer {
+/*    width: 70%;*/
+    background-color: #c00;
+    border: black 5px solid;
+    margin: 0 10%;
 }
 div {
     display: block;
@@ -13,8 +19,8 @@ form {
     margin-bottom: 1em;
     display: block;
     margin-top: 0em;
+/*    margin: 0 5%;*/
 }
-
 /*Header and footer css*/
 
 header img {
@@ -23,7 +29,7 @@ header img {
 }
 
 header {
-    font: 11pt Garamond, Arial, sans-serif;
+    /*font: 11pt Garamond, Arial, sans-serif;*/
     color: #c00;
     background-color: #bbb;
     height: 55px;
@@ -32,7 +38,7 @@ header {
 }
 
 footer{
-        font: 11pt Garamond, Arial, sans-serif;
+        /*font: 11pt Garamond, Arial, sans-serif;*/
         color: #c00;
         font-size: 14px;
         text-align: center;
@@ -82,6 +88,7 @@ text-align: center;
     width: 40%;
     /*padding-right: 20px;*/
     color: white;
+    background-color: #bbb;
 }
 
 #signup {
@@ -91,9 +98,9 @@ text-align: center;
     height: 100px;
     margin-right: 250px;
     width: 45%;
-}
-p{
-    color: black;
+    width: 40%;
+    background-color: #bbb;
+
 }
 #login_signup {
     /*border: 5px solid black;*/
@@ -105,8 +112,8 @@ p{
 #login_signup img {
     height: 45%;
     text-align: justify;
-    float: right;
-    margin: 5% 35%;
+    /*float: right;*/
+    margin: 0 40%;
 }
 
 /*end of homepage specific css
@@ -162,27 +169,18 @@ padding: 0 5px;
 height: auto;
 }
 
-#userpage{
-padding: 0 5px;
-margin-right: 2em;
-
-
-}
-
-ul{
-     margin: 2%; 
+#Userpage{
   
-     
 }
 
 h1{
     
-     color: white;
+    color: white;
     border-bottom: 2px solid black;
-    margin: 4%;
-    width: 330px;
+    margin: 4% 5%;
+    width: 300px;
     text-align: justify;
-    padding: 0 4px;
+    padding: 0 5px;
     height: auto;
     
 }
@@ -196,14 +194,16 @@ a{
 
 
 #javadice {
-font-size: 14px;
+	font-size: 14px;
 	background-color: white;
-	border-style: dashed;
-	border-color: black;
-	
+	border-width: 5px;
+	border-style: dotted;
+	border-color: #c3040c;
+	/*position: fixed;*/
 	top: 260px;
 	left: 75px;
 	width: 185px;
+       	
 }
 
 #javadice > th {
@@ -259,22 +259,4 @@ th {
 }
 dice {
 	text-align: right;
-}
-#gamepage{
-   float: right;
-   
-    background-color: #bbb;
-	border-style: dashed;
-	border-color: black;
-        text-align: justify;
-        font-size: 14px;
-       top: 260px;
-	left: 75px;
-	width: 185px;
-        padding: 0 6px;
-       	 
-	margin-top: 40px;
-	
-	
-	
 }
