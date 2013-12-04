@@ -18,5 +18,8 @@
             <input type="hidden" name="hl" value="en">   -->
             <p>&copy; Lords of the Code</p>
             </form>
-</footer>
+   </footer>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="/yahtzeeproject/dev/js/functions.js"></script>

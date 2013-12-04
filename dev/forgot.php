@@ -3,7 +3,7 @@
         <div id="signingup">
             <p>Forgot your password? That's okay, enter your username and 
                 e-mail and we will send you your password!</p>
-            <form method="post" action="userpage.php">
+            <form method="post" action="validate.php">
                 <label> username </label> <input type="text" name="Username" />
                 <!--code for if forgot username, spits out security q-->
                 <p> Forgot username? </p>

@@ -2,7 +2,16 @@
 <!DOCTYPE html>
 <html>
     <?php include("inc/header.php"); ?>
-    
+    <div id="gamepage">
+      
+      <p> Done with your game? Then try these links!</p>
+      <ul>
+        <li><a href="gamepage.php">New game</a></li>
+        <li><a href="userstats.php">My Stats</a></li>
+        <li><a href="userfriends.php">My Friends</a></li>
+      </ul>    
+  
+    </div>  
         <!-- Javascript Dice -->
     <div id="javadice">
         <p>Don't have 5 dice?  Use these (Click on Dice to keep them each roll):</p>
@@ -48,7 +57,7 @@
     </form>
     </div>
  <!-- End Javascript Dice -->
-  
+ <script src="js/game.js"></script>
          <?php include("inc/footer.php"); ?>
 
     </body>

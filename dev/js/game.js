@@ -28,6 +28,17 @@ function rollDice() {
 	dicetotal.innerHTML = total;
 }
 
+//function testRolls(rollCount){
+//    if(rollCount<3){
+//        rollCount++;
+//        return rollCount;
+//    }
+//    else {
+//        print ("You've already rolled 3 times!");
+//        //do user input into scoresheet
+//    }
+//    
+//}
 function resetDice() {
 	
 	//make sure we're not saving any of the dice values
@@ -57,18 +68,18 @@ function toggleSave(dice) {
 
 function getDiceImage(num, color, dice) {
 	
-	if (num = 1){
-		return "<img src='images/Ace.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
-	} else if (num = 2) {
-		return "<img src='images/Two.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
-	} else if (num = 3) {
-		return "<img src='images/Three.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
-	} else if (num = 4) {
-		return "<img src='images/Four.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
-	} else if (num = 5) {
-		return "<img src='images/Five.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
-	} else if (num = 6) {
-		return "<img src='images/Six.gif" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	if (num == 1){
+		return "1" + "<img src='../images/dice1.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	} else if (num == 2) {
+		return "2"+ "<img src='../images/dice2.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	} else if (num == 3) {
+		return "3"+ "<img src='../images/dice3.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	} else if (num == 4) {
+		return "4" + "<img src='../images/dice4.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	} else if (num == 5) {
+		return "5" + "<img src='../images/dice5.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
+	} else if (num == 6) {
+		return "6" + "<img src='../images/dice6.png" + color + ".gif' onclick='toggleSave(\"" + dice + "\")' />";
 	}
 }
 

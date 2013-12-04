@@ -201,7 +201,7 @@ a{
 	border-width: 5px;
 	border-style: dotted;
 	border-color: #c3040c;
-	position: fixed;
+	/*position: fixed;*/
 	top: 260px;
 	left: 75px;
 	width: 185px;
