@@ -2,7 +2,19 @@
 <!DOCTYPE html>
 <html>
     <?php include("inc/header.php"); ?>
-    
+    <LINK href="theme/homepage.css" rel="stylesheet" type="text/css">
+
+<SCRIPT type="text/javascript" src="javascript/game.js"></SCRIPT>
+<div id="gamepage">
+      
+      <p> Done with your game? Then try these links!</p>
+      <ul>
+        <li><a href="gamepage.php">New game</a></li>
+        <li><a href="userstats.php">My Stats</a></li>
+        <li><a href="userfriends.php">My Friends</a></li>
+      </ul>    
+  
+    </div>  
         <!-- Javascript Dice -->
     <div id="javadice">
         <p>Don't have 5 dice?  Use these (Click on Dice to keep them each roll):</p>
@@ -26,23 +38,17 @@
        </tr>
             
     <tr>
-        <td id="dice1"></td>
-     
-        <td id="dice2"></td>
-       
-        <td id="dice3"></td>
-        
-        <td id="dice4"></td> 
-       
+        <td id="dice1"></td>     
+        <td id="dice2"></td>       
+        <td id="dice3"></td>        
+        <td id="dice4"></td>        
         <td id="dice5"></td>
         
     </tr>
     </tbody>
-
     </table>
         <input type="button" onclick="rollDice();" name="Roll" value="Roll"/>
-        <input type="button" onclick="resetDice();" name="Reset" value="Reset" />
-        
+        <input type="button" onclick="resetDice();" name="Reset" value="Reset" />        
         <div id="rolltotal"></div>
     
     </form>
