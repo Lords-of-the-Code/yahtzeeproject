@@ -92,6 +92,9 @@ text-align: center;
     margin-right: 250px;
     width: 45%;
 }
+p{
+    color: black;
+}
 #login_signup {
     /*border: 5px solid black;*/
     width: 100%;
@@ -159,18 +162,27 @@ padding: 0 5px;
 height: auto;
 }
 
-#Userpage{
+#userpage{
+padding: 0 5px;
+margin-right: 2em;
+
+
+}
+
+ul{
+     margin: 2%; 
   
+     
 }
 
 h1{
     
-    color: white;
+     color: white;
     border-bottom: 2px solid black;
-    margin: 4% 5%;
-    width: 300px;
+    margin: 4%;
+    width: 330px;
     text-align: justify;
-    padding: 0 5px;
+    padding: 0 4px;
     height: auto;
     
 }
@@ -184,16 +196,14 @@ a{
 
 
 #javadice {
-	font-size: 14px;
+font-size: 14px;
 	background-color: white;
-	border-width: 5px;
-	border-style: dotted;
-	border-color: #c3040c;
-	position: fixed;
+	border-style: dashed;
+	border-color: black;
+	
 	top: 260px;
 	left: 75px;
 	width: 185px;
-       	
 }
 
 #javadice > th {
@@ -249,4 +259,22 @@ th {
 }
 dice {
 	text-align: right;
+}
+#gamepage{
+   float: right;
+   
+    background-color: #bbb;
+	border-style: dashed;
+	border-color: black;
+        text-align: justify;
+        font-size: 14px;
+       top: 260px;
+	left: 75px;
+	width: 185px;
+        padding: 0 6px;
+       	 
+	margin-top: 40px;
+	
+	
+	
 }
