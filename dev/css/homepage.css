@@ -260,3 +260,22 @@ th {
 dice {
 	text-align: right;
 }
+
+#gamepage{
+   float: right;
+   
+    background-color: #bbb;
+	border-style: dashed;
+	border-color: black;
+        text-align: justify;
+        font-size: 14px;
+       top: 260px;
+	left: 75px;
+	width: 185px;
+        padding: 0 6px;
+       	 
+	margin-top: 40px;
+	
+	
+	
+}
