@@ -169,9 +169,10 @@ padding: 0 5px;
 height: auto;
 }
 
-#Userpage{
-  
-}
+
+#userpage{
+padding: 0 5px;
+margin-right: 2em;
 
 h1{
     
@@ -182,7 +183,19 @@ h1{
     text-align: justify;
     padding: 0 5px;
     height: auto;
-    
+}
+ul{
+     margin: 2%; 
+     
+}
+h1{
+   color: white;
+    border-bottom: 2px solid black;
+    margin: 4%;
+    width: 330px;
+    text-align: justify;
+    padding: 0 4px;
+    height: auto;
 }
 a{
     color: white;
